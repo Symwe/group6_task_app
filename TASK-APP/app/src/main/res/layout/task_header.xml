@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="horizontal"
+    android:padding="8dp">
+
+    <!-- Task Completion Header -->
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Completed"
+        android:textStyle="bold" />
+
+    <!-- Task Title Header -->
+    <TextView
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:layout_weight="1"
+        android:text="Task Name"
+        android:textStyle="bold"
+        android:layout_marginStart="16dp" /> <!-- Add margin to start -->
+
+    <!-- Start Date Header -->
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Start Date"
+        android:textStyle="bold"
+        android:layout_marginStart="16dp" /> <!-- Add margin to start -->
+
+    <!-- End Date Header -->
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="End Date"
+        android:textStyle="bold"
+        android:layout_marginStart="16dp" /> <!-- Add margin to start -->
+</LinearLayout>
